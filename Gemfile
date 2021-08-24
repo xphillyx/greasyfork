@@ -18,7 +18,7 @@ gem 'rails-i18n'
 gem 'redcarpet'
 gem 'sanitize'
 gem 'sass-rails' # Just for the compressor
-gem 'sidekiq'
+gem 'sidekiq', '>= 6.2.1'
 gem 'strip_attributes'
 gem 'thinking-sphinx'
 gem 'transifex-ruby', git: 'https://github.com/tmaesaka/transifex-ruby.git'
