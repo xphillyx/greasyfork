@@ -55,7 +55,7 @@ end
 gem 'byebug', group: [:development, :test]
 
 group :development do
-  gem 'better_errors'
+  gem 'better_errors', '>= 2.8.0'
   gem 'binding_of_caller'
   gem 'capistrano', '~> 3.7'
   gem 'capistrano-bundler', '~> 1.2'
