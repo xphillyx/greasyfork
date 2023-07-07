@@ -16,7 +16,7 @@ gem 'public_suffix'
 gem 'rails', '~> 6.0.2'
 gem 'rails-i18n'
 gem 'redcarpet'
-gem 'sanitize'
+gem 'sanitize', '>= 6.0.2'
 gem 'sass-rails' # Just for the compressor
 gem 'sidekiq'
 gem 'strip_attributes'
