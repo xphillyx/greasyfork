@@ -66,7 +66,7 @@ group :development do
   gem 'capistrano-sidekiq', git: 'https://github.com/rwojnarowski/capistrano-sidekiq.git', ref: '8a8a2edf86dfcdebd69dafc4f96adc55745aecde'
   gem 'capistrano3-delayed-job', '~> 1.0'
   gem 'listen'
-  gem 'rubocop'
+  gem 'rubocop', '>= 0.82.0'
 end
 
 group :profile do
