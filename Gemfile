@@ -14,7 +14,7 @@ gem 'mysql2'
 gem 'newrelic_rpm'
 gem 'public_suffix'
 gem 'rails', '~> 6.0.2'
-gem 'rails-i18n'
+gem 'rails-i18n', '>= 8.0.0'
 gem 'redcarpet'
 gem 'sanitize'
 gem 'sass-rails' # Just for the compressor
